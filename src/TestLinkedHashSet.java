@@ -17,6 +17,7 @@ public class TestLinkedHashSet {
 		
 		System.out.println(set);
 			
+		//set is in the order it was entered, each linked to each other, but not in any other order.
 		for (Object element: set) {
 			System.out.print(element.toString().toLowerCase() + " ");
 		}

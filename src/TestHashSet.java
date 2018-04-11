@@ -17,6 +17,7 @@ public class TestHashSet {
 		
 		Iterator<String> iterator = set.iterator();
 		
+		//list is in whatever order, not linked, not sorted
 		while (iterator.hasNext()) {
 			System.out.print(iterator.next().toUpperCase()+" ");
 		}
